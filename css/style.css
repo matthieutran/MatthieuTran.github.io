@@ -30,6 +30,10 @@ html, body {
     text-align: center;
 }
 
+.bannerText > ul > li {
+    display: inline;
+}
+
 .name {
     font-size: 2em;
 }
@@ -38,6 +42,30 @@ html, body {
     margin-top: 0px;
 }
 
-.qualities {
-    word-spacing: 15px;
+h4 {
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+
+.scrollspy > .row {
+    margin-left: 50px;
+}
+
+.scrollspy > hr {
+    height: 2px;
+    border: none;
+    width: 10%;
+}
+
+.fa {
+    padding-top: 15px;
+    color: #2196F3;
+}
+
+.fa2 {
+    color: #e91e63;
 }

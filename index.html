@@ -5,6 +5,7 @@
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/font-awesome.css" media="screen,projection" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -15,18 +16,77 @@
       <br>
       <span class="name">ddolpali</span>
       <hr width="10%">
-      <p class="qualities">Developer &bull; Designer &bull; Student</p>
+      <ul>
+        <li>
+          <div class="chip blue white-text">Developer</div>
+        </li>
+        <li>
+          <div class="chip">Designer</div>
+        </li>
+        <li>
+          <div class="chip pink white-text">Student</div>
+        </li>
+      </ul>
       <br>
       <p>“As long as you’re not dead, your life isn’t the end.” <br /> &mdash; Jay Park</p>
+      <br>
+      <a class="waves-effect waves-red btn white black-text" href="#contact">Contact</a>
     </div>
     <div class="container"> </div>
   </div>
   <div class="container">
-    <h1 align="center">About Me</h1>
+    <center>
+      <div id="about" class="section scrollspy">
+        <h4>About Me</h1>
+        <small>Some lame felicia</small>
+        <br><br>
+        <div class="row">
+          <div class="col s4">
+            <i class="large fa fa-clock-o" aria-hidden="true"></i>
+            <h5>Experience</h5>
+            <p>My programming hobby started late 2008 progressively increasing knowledge to the present.</p>
+          </div>
+          <div class="col s4">
+            <i class="large fa fa-vcard-o fa2" aria-hidden="true"></i>
+            <h5>Freelance</h5>
+            <p>I have worked on several projects for small companies like HGL and other independent servers.
+          </div>
+          <div class="col s4">
+            <i class="large fa fa-bolt" aria-hidden="true"></i>
+            <h5>Speed</h5>
+            <p>Every project is completed in a timely manner. Projects start after the communication phase has ended.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="contact" class="section scrollspy">
+        <h4>Contact Me</h1>
+        <small>Need to talk?</small>
+      </div>
+    </center>
   </div>
-  <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.scrollspy').scrollSpy();
+      $(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
+            this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
