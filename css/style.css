@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
 }
 
 .banner {
@@ -20,12 +22,12 @@ html, body {
     margin: 0;
 }
 
-.banner > .bannerText {
+.bannerText {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    margin-top: 150px;
+    margin-top: 50px;
     color: #fff;
     text-align: center;
 }
@@ -59,9 +61,40 @@ h5 {
 
 .fa {
     padding-top: 15px;
-    color: #2196F3;
+    /*color: #2196F3;*/
+    color: #333;
 }
 
 .fa2 {
     color: #e91e63;
+}
+
+.banner2 {
+    width: 100%;
+    height: 20%;
+    background: url("../images/banner2.jpeg") no-repeat scroll center center / cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner2 > .container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33,33,33,0.6);
+    margin: 0;
+}
+
+.panel2 {
+    background-color: #ededed;
+}
+
+.section {
+    text-align: center;
+}
+
+.social2 > a {
+    margin-right: 10px;
+    margin-left: 10px;
 }
