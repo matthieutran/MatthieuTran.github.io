@@ -51,10 +51,6 @@ h5 {
     margin-bottom: 0px;
 }
 
-.scrollspy > .row {
-    margin-left: 50px;
-}
-
 .scrollspy > hr {
     height: 2px;
     border: none;
