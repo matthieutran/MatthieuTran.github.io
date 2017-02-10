@@ -99,7 +99,18 @@ h5 {
     margin-left: 10px;
 }
 
+.social {
+    margin-top: 0;
+}
+
 .social > li {
     display: inline;
     font-size: 15px;
+}
+
+.email {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
