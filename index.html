@@ -8,7 +8,7 @@
   <meta name="author" content="ddolpali">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ddolpali</title>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/font-awesome.css" media="screen,projection" />
@@ -199,12 +199,14 @@
       </div>
     </center>
   </footer>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript">
+  
+  <script type="text/javascript" charset="utf-8">
     $(document).ready(function () {
       $('.scrollspy').scrollSpy();
-      $(function () {
+    });
+    $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
             this.hostname) {
@@ -219,7 +221,6 @@
           }
         });
       });
-    });
   </script>
 </body>
 
