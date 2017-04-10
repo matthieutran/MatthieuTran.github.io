@@ -15,6 +15,10 @@ html, body {
     background-size: cover;
 }
 
+.container {
+    max-width: 100%;
+}
+
 .banner > .container {
     height: 100%;
     width: 100%;
