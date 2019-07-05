@@ -1,2 +1,0 @@
-# ddolpali.github.io
-:)

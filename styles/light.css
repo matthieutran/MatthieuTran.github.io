@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+html,
+body {
+  height: 100%;
+  font-family: Karla, Helvetica, Century Gothic;
+}
+
+body {
+  background-color: #dbedff;
+  color: #454a5a;
+  /* color: rgb(94, 94, 94); */
+}
+
+h1 {
+  color: #454a5a;
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+section {
+  margin-bottom: 2%;
+}
+
+#nav {
+  margin-bottom: 5%;
+}
+
+a {
+  color: #454a5a;
+  font-size: 1em;
+  transition: all 0.3s ease-in;
+}
+
+a:hover {
+  color: #1a1e2d;
+}
+
+.btn {
+  transition: all 0.3s ease-in;
+}
+
+.circle {
+  background-color: #fff2d0;
+  border-radius: 60%;
+  width: 200px;
+}
+
+.blue-btn:hover {
+  background-color: inherit;
+  border-color: #78adfc;
+  border-width: 2px;
+  color: #78adfc;
+}
+
+.blue-btn {
+  background-color: #78adfc;
+  border-width: 2px;
+  color: #fff;
+}
+
+.theme-btn:hover {
+  background-color: inherit;
+  border-color: #1a1e2d;
+  border-width: 2px;
+  color: #1a1e2d;
+}
+
+.theme-btn {
+  background-color: inherit;
+  background-color: #1a1e2d;
+  border-width: 2px;
+  color: #fff;
+}
+
+.salmon-btn:hover {
+  background-color: inherit;
+  border-color: #fc7878;
+  border-width: 2px;
+  color: #fc7878;
+}
+
+.salmon-btn {
+  background-color: #fc7878;
+  border-width: 2px;
+  color: #fff;
+}
