@@ -12,6 +12,21 @@ body {
   /* color: rgb(94, 94, 94); */
 }
 
+#title {
+  color: #c1c1c1;
+}
+
+#page {
+  background-color: #1a1e2d;
+  color: #454a5a;
+  /* color: rgb(94, 94, 94); */
+}
+
+#page-title {
+  margin: 10px;
+  text-align: center;
+}
+
 h1 {
   color: #fff;
   font-weight: 600;
@@ -24,6 +39,45 @@ h5 {
 
 section {
   margin-bottom: 2%;
+}
+
+.content {
+  width: 100%;
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content a {
+  color: #454a5a;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project-desc {
+  font-size: 20px;
+  vertical-align: 7%;
+  padding-left: 10px;
+}
+
+.project-links {
+  float: left;
+}
+
+.project-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-links li {
+  display:inline;
+}
+
+.project-links a {
+  text-decoration: underline;
 }
 
 #nav {
@@ -84,4 +138,94 @@ a:hover {
   background-color: #fc7878;
   border-width: 2px;
   color: #fff;
+}
+
+
+.project-links .btn {
+  border: none;
+  border-radius: 6px;
+
+  display: inline;
+  padding: 8px;
+  margin-right:5px;
+
+  background-color: #ed8d8d;
+
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.project-links .btn:hover {
+  background-color: #e76464;
+}
+
+/* Tags */
+.tag {
+  padding:8px;
+  border-radius:6px;
+  font-size:20px;
+  margin-right:5px;
+  color: #fff;
+}
+
+#c-tag {
+  background-color:#a9bbcd;
+}
+
+#csharp-tag {
+  background-color: #7b3399;
+}
+
+#go-tag {
+  background-color:#7fd5ea;
+}
+
+#laravel-tag {
+  background-color: #ff2d20;
+}
+
+#mysql-tag {
+  background-color: #e97b00;
+}
+
+#oauth-tag {
+  background-color: #000;
+}
+
+#php-tag {
+  background-color:#8892bf;
+}
+
+#python-tag {
+  background-color: #3d79aa;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .content {
+    width: 80%;
+  
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .content {
+    width: 50%;
+  
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }  
 }
