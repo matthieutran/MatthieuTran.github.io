@@ -196,31 +196,30 @@ a:hover {
   background-color: #3d79aa;
 }
 
-
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .content {
     width: 80%;
-  
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
   }  
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  
+  .content {
+    width: 70%;
+  }  
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   .content {
+    width: 70%;
+  }  
+}
+
+/* Larger devices (larger desktops, 1920px and up) */
+@media (min-width: 1920px) { 
+  .content {
     width: 50%;
-  
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
   }  
 }
