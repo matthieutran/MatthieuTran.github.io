@@ -43,14 +43,22 @@ section {
 
 .content {
   width: 100%;
-
-  background-color: #fff;
+  color: #aaa;
+  background-color: #272b39;
   padding: 20px;
   border-radius: 8px;
 }
 
+.content h3 {
+  color: #fff;
+}
+
+.content .text-muted {
+  color: #d3d3d3;
+}
+
 .content a {
-  color: #454a5a;
+  color: #aaa;
 }
 
 .project {
